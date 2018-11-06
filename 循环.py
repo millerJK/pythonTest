@@ -19,6 +19,17 @@ name = '我是传奇';
 for c in name:
     print(c);
 
+
+# 1-100数字相加
+sum =0
+for  x in range(101):
+    sum=sum+x
+print(sum)
+
+
+
+
+#while循环
 n = 1
 while n <= 100:
     print(n)
@@ -27,7 +38,4 @@ while n <= 100:
     n = n + 1
 print('END')
 
-for num in range(10):
-    if num == 5:
-        continue
-    print("哈哈")
+

@@ -8,3 +8,9 @@ print('''
     欲穷千里目，
     更上一层楼。
 ''')
+
+def move(x, y):
+    return x, y
+
+x, y = move(4, 5);
+print("函数返回多个结果：x: %d  y:%d" %(1,2))

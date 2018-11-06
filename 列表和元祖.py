@@ -1,4 +1,13 @@
-# 列表list []
+# 列表list  和 元组 tuple之间的异同区别
+
+#相同：
+#1.下标都是从0开始
+
+#差异：
+#1.列表是有序可变集合，而tuple 则是不可变集合，在初始化一旦设置数据将不再能改动
+#2.
+
+
 classes = [];
 print(classes)
 classes = ["java", "math", "chinese", "english"];
@@ -36,10 +45,14 @@ print(classes)
 
 # 查
 print(classes[0])
+print(classes[-1])   # -1，-2，-3，-4 一次倒叙查询
 
 #清除数据
 classes.clear()
 print(classes)
+
+
+
 # 元组tuple （）
 
 # 空元组
@@ -57,4 +70,11 @@ print(classes)
 # 查
 print(classes[0]);
 print(classes[2]);
+
+#当元组中只有一个数据时，不是元组，如果要设置为元组，在唯一元素后面添加，号
+names = (1)
+print(names)
+
+students = (1,)
+print(students)
 

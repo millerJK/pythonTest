@@ -1,6 +1,8 @@
 from collections.abc import Iterable
 
+#只要用isInstance进行判断返回为true 就代表该种类型可以使用for 循环
 print(isinstance("abc", Iterable))
+print(isinstance([1,2,3], Iterable)) # list是否可迭代
 
 
 for i, value in enumerate(['a', 'b', 'c']):

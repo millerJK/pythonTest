@@ -6,12 +6,12 @@ class Animal(object):
 class Cat(Animal):
     pass
 
+
 class Pig(Cat):
     pass
 
 
 class Dog(Animal):
-
     def run(self):
         print("Dog is running .............")
 
@@ -19,13 +19,6 @@ class Dog(Animal):
 class Duck(object):
     def run(self):
         print("stupid mother fuck")
-
-
-def run_twice(animal):
-    animal.run();
-    animal.run()
-
-
 
 
 cat = Cat();
@@ -51,5 +44,6 @@ print(d);
 print(e);
 print(f);
 
+# 判断对象是否属于某种类型
 print(isinstance(f, set))
 print(isinstance(d, str))
