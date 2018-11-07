@@ -46,6 +46,7 @@ print(classes)
 # 查
 print(classes[0])
 print(classes[-1])   # -1，-2，-3，-4 一次倒叙查询
+print("sex" in  classes)
 
 #清除数据
 classes.clear()
